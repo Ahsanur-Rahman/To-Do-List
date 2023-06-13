@@ -1,0 +1,41 @@
+.errorMassage {
+    align-self: stretch;
+    position: relative;
+  }
+  .whatYouShould {
+    flex: 1;
+    position: relative;
+  }
+  .errorCard,
+  .suggetion {
+    display: flex;
+    box-sizing: border-box;
+  }
+  .suggetion {
+    background-color: var(--color-white);
+    width: 289px;
+    height: 99px;
+    flex-direction: row;
+    padding: var(--padding-3xs);
+    align-items: flex-start;
+    justify-content: center;
+    text-align: center;
+    font-size: 18px;
+    color: var(--color-black);
+  }
+  .errorCard {
+    position: relative;
+    background-color: #8a2d8c;
+    backdrop-filter: blur(20px);
+    width: 100%;
+    flex-direction: column;
+    padding: var(--padding-xl);
+    align-items: center;
+    justify-content: flex-start;
+    gap: 30px;
+    text-align: left;
+    font-size: 28px;
+    color: var(--color-white);
+    font-family: var(--font-inter);
+  }
+  
