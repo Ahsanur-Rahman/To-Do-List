@@ -1,8 +1,8 @@
 import styles from "./ListContainer.module.css";
-const ListContainer = () => {
+const ListContainer = (props) => {
   return (
     <div className={styles.listContainer}>
-      <div className={styles.allExercises}>All Exercises</div>
+      <div className={styles.allExercises}>{props.Wishes.wish}</div>
     </div>
   );
 };
