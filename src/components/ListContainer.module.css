@@ -1,0 +1,18 @@
+.allExercises {
+  flex: 1;
+  position: relative;
+}
+.listContainer {
+  background-color: var(--color-mediumvioletred);
+  width: 402px;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-mini);
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}

@@ -1,0 +1,52 @@
+.courseGoal {
+  cursor: pointer;
+  position: relative;
+}
+.motherAddGoalChild {
+  border: 1px solid var(--color-dimgray);
+  background-color: var(--color-white);
+  align-self: stretch;
+  position: relative;
+  box-sizing: border-box;
+  height: 26px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.addGoal {
+  position: relative;
+  font-size: var(--font-size-base);
+  font-family: var(--font-inter);
+  color: var(--color-snow);
+  text-align: left;
+}
+.addGoalButton {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-3xs);
+  background-color: var(--color-mediumvioletred);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.grandmotherAddGoal,
+.motherAddGoal {
+  background-color: var(--color-white);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.motherAddGoal {
+  width: 279px;
+  justify-content: center;
+  gap: var(--gap-8xs);
+}
+.grandmotherAddGoal {
+  border-radius: var(--br-mini);
+  padding: var(--padding-xl);
+  justify-content: flex-start;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
