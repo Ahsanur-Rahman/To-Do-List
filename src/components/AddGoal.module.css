@@ -5,9 +5,9 @@
 .motherAddGoalChild {
   border: 1px solid var(--color-dimgray);
   background-color: var(--color-white);
-  align-self: stretch;
   position: relative;
   box-sizing: border-box;
+  width: 210px;
   height: 26px;
   overflow: hidden;
   flex-shrink: 0;
@@ -21,7 +21,7 @@
 }
 .addGoalButton {
   cursor: pointer;
-  border: 0;
+  border: none;
   padding: var(--padding-3xs);
   background-color: var(--color-mediumvioletred);
   display: flex;
@@ -29,22 +29,24 @@
   align-items: flex-start;
   justify-content: flex-start;
 }
-.grandmotherAddGoal,
 .motherAddGoal {
+  align-self: stretch;
   background-color: var(--color-white);
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
-}
-.motherAddGoal {
-  width: 279px;
+  align-items: center;
   justify-content: center;
   gap: var(--gap-8xs);
 }
 .grandmotherAddGoal {
+  align-self: stretch;
   border-radius: var(--br-mini);
+  background-color: var(--color-white);
+  display: flex;
+  flex-direction: column;
   padding: var(--padding-xl);
-  justify-content: flex-start;
+  align-items: center;
+  justify-content: center;
   text-align: left;
   font-size: var(--font-size-base);
   color: var(--color-black);
